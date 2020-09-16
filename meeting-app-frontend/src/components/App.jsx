@@ -14,7 +14,7 @@ function App() {
             <NavBar />
             <div className="container my-4">
                 <Switch>
-                    <Route exact path="/calendar" component={CalendarPage} />
+                    <Route path="/calendar" component={CalendarPage} />
                     <Route path="/meetings" component={MeetingsPage} />
                     <Route path="/login" component={LoginPage} />
                     <Route path="/signup" component={SignupPage} />

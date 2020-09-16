@@ -4,7 +4,7 @@ import React, { Component } from "react";
 export default class SignupPage extends Component {
     render() {
         return (
-            <form>
+            <form className="container flex-right w-50">
                 <h3>Sign Up</h3>
 
                 <div className="form-group">

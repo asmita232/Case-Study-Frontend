@@ -7,7 +7,7 @@ import React, { Component } from "react";
 export default class LoginPage extends Component {
     render() {
         return (
-            <form className="container">
+            <form className="container flex-right w-50">
                 <h3>Login</h3>
 
                 <div className="form-group">
