@@ -10,8 +10,8 @@ import axios from 'axios'
 
 function getMeetings(search, dateCriteria){
 
-    // const id = localStorage.getItem('userid')
-    let id = '5f5fb2d9af14f973c4d6bd12'
+    const id = localStorage.getItem('id')
+    // let id = '5f5fb2d9af14f973c4d6bd12'
     
     return axios.get(`http://localhost:4000/meetings?id=${id}&dateCriteria=${dateCriteria}&search=${search}`,
     {
