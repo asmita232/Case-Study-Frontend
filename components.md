@@ -1,0 +1,24 @@
+## Component Design
+- Login
+    - function component
+    - form with username, password, button
+    - to display error use alert() or maintain state with useState()
+    - use class components with validation error message form with username, password, button
+- Register
+    - type: class component
+    - UI
+        - form with email username, password, button
+    - State
+        - Input values, errors
+    - form with name, username, password, button
+
+- Calendar
+    - type: class
+    - UI
+        - input type="date
+        - map through meetings and display as per requirement(display: flex, position: relative/ absolute)
+    - State
+        - selectedDate: selected date
+        - meetings: array of the selected day's meetings
+    - Lifecycle methods
+        - componentDidMount() - fetch the 
